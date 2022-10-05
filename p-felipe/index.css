@@ -1,0 +1,365 @@
+/*-------CSS del Menu de Navegacion----------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+:root{
+    --menuYcontacto: rgb(80, 80, 80);
+    --letras-menu: #fff;
+    --letras-menu-sixe: 25px;
+}
+
+body {
+    background-color: rgb(169, 169, 169);
+    font-family: 'Amita';
+    font-size: 22px;
+    height: 100%;
+    
+}
+
+header .menu{
+    background-color: var(--menuYcontacto);
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    
+    
+}
+
+.Pipe-Rucinque{
+    background-color: brown;
+    line-height: 100px;
+    padding: 0 30px;
+}
+
+.enlaces{
+    text-decoration: none;
+    color: var(--letras-menu);
+    font-size: var(--letras-menu-sixe);
+    margin: 0 10px;
+    display: inline-block; 
+    line-height: 100px;
+    
+}
+
+.enlaces:hover{
+    background-color: rgb(132, 110, 69);
+    
+}
+
+.enlaces:active{
+    background-color: rgb(95, 76, 42);
+}
+
+.hamb-button{
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;   
+    }
+    
+    body {
+        background-color:  rgb(136, 134, 134);
+                
+    }
+    
+    .menu ul{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 100px;
+        right: 30px;
+        
+    }
+    
+    .Pipe-Rucinque{
+        background-color: brown;
+        line-height: 100px;
+        padding: 0 30px;
+    }
+    
+    .enlaces{
+        text-decoration: none;
+        color: var(--letras-menu);
+        margin: 0 10px;
+        display: inline-block; 
+        line-height: 100px;
+        
+    }
+    
+    .enlaces:hover{
+        background: none;
+        color: rgb(214, 215, 217);
+    }
+
+      
+    
+    .hamb-button{
+        background: none;
+        border: none;
+        margin-right: 30px;
+        display: block;
+        width: 70px;
+        
+    }
+
+    .hamb-button:hover{
+        background: none;
+        border: 3px solid rgb(24, 24, 24);
+    }
+
+    .hamb-button:active{
+        background-color: rgb(44, 44, 44);
+    }
+
+    .hamb-icon-img{
+        width: 50px;
+        height: inherit;
+        color: white;
+        
+    }
+
+}
+
+
+
+
+
+/*---------CSS del cuerpo-------------*/
+
+main{
+    width: 100%;
+    height: 417px;
+    top: 100px;
+    bottom: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+
+    
+}
+
+.main-index > *{
+    text-decoration: none;
+    font-size: 60px;
+    color: var(--letras-menu);
+    background-color: rgb(104, 107, 107);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card-biografia:hover, .card-portafolio:hover{
+    text-decoration: underline var(--letras-menu);
+}
+
+.card-biografia:active, .card-portafolio:active{
+    border: 7px solid var(--letras-menu);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------CSS de la barra de contacto-----------*/
+
+footer{
+    background-color: var(--menuYcontacto);
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    line-height: 100px;
+
+}
+
+.contacto{
+    text-decoration: none;
+    color: var(--letras-menu);
+    font-size: var(--letras-menu-sixe);
+    margin: 0 10px;
+    display: inline-block; 
+    line-height: 100px;
+
+}
+.contacto:hover{
+    background-color: rgb(132, 110, 69);
+}
+.contacto:active{
+    background-color: rgb(95, 76, 42);
+}
+
+
+
+
+
+
+
+
+
+/*----CSS DE LA BIOGRAFIA -----------------*/
+
+.main-biografia{
+    width: 100%;
+    height: 417px;
+    top: 100px;
+    bottom: 100px;
+}
+
+.contBiografia{
+    width: 50%;
+    height: 417px;
+    top: 100px;
+    bottom: 100px;
+    background-color: rgb(0, 0, 0);
+    opacity: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.fotoFamilia{
+    width: 100px;
+    border-radius: 10px;
+    
+}
+
+
+.parrafo{
+    color: #fff;
+    text-align: justify;
+    overflow: auto;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/*----CSS DE PORTAFOLIO -----------------*/
+.main-portafolio > *{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.img-lenguaje{
+    background: none;
+}
+
+
+@media (max-width: 768px){
+    .main-portafolio > *{
+        width: 100px;
+        height: 100px;
+        display: block;
+        /* flex-direction: column; */
+        /* justify-content: space-evenly;
+        align-items: center; */
+    }
+
+}
+
+
+
+
+
+/*------CSS DE CONTACTO----------------------*/
+
+.main-contacto{
+    width: 100%;
+    height: 417px;
+    top: 100px;
+    bottom: 100px;
+    
+}
+
+
+.formulario-contacto{
+    background-image: linear-gradient(-20deg, #443a3a 0%, #c35f33 100%);
+    height: 417px;
+    top: 100px;
+    bottom: 100px;
+    display: block;
+    justify-content: center;
+    
+}
+h1{
+    font-size: 30px;
+    color: var(--letras-menu);
+    margin: 0 20px;
+    
+}
+.cont-form{
+    margin-left: 30px; 
+    
+    
+}
+
+.submit{
+    display: flex;
+    gap: 30px;
+    
+}
+
+.submit > *{
+    width: 70px;
+
+}
+
+li{
+    list-style: none;
+    
+}
+
+.datos-input{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+textarea{
+    resize: none;
+}
