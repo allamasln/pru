@@ -1,0 +1,52 @@
+body{
+    background-color: #303030;
+}
+
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 2.5rem;
+}
+
+.container h1{
+    color: white;
+    font-size: 40px;
+}
+
+.container p{
+    color: white;
+    font-size: 22px;
+}
+
+.videos{
+    margin: 20px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.video p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 1175px) {
+    .videos{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .videos{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+

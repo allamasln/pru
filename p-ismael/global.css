@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+body{
+    height: 100%;
+}
+
+.navbar{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0.5rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+.navbar span{
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    padding: 1rem;
+    font-size: 20px;
+}
+
+.navbar ul li{
+    margin: 0px 10px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+    .navbar a:hover{
+        font-size: 22px;
+    }
+
+    footer{
+        font-size: 18px;
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 1rem;
+    }
+
+    @media (max-width: 586px){
+        .navbar span{
+            font-size: 20px;
+        }
+    }
+
+    @media screen and (max-width: 556px) {
+        .navbar{
+            justify-content: center;
+        }
+
+        .navbar span{
+            display: none;
+        }
+        main{
+            background-size: cover;
+            background-position: 65% 100%;
+        }
+       
+    }
+    

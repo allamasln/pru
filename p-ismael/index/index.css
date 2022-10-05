@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(../imágenes/wagner.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.presentation{
+    text-align: center;
+    color: white;
+    margin-left: 75px;
+}
+
+.presentation h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.presentation p{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 670px) {
+    main{
+        align-items: center;
+    }
+    .presentation{
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .presentation h1{
+        font-size: 44px;
+    }
+
+    .presentation p{
+        font-size: 20px;
+    }
+}
+
