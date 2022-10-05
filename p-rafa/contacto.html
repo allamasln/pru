@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="images/logoRFAF2.png" />
+        </div>
+
+        <nav>
+            <ul class="nav-links">
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="biografia.html">Biografia</a>
+                </li>
+                <li>
+                    <a href="portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="contForm">
+            <h1>CONTACTA CONMIGO</h1>
+
+            <form action="#" method="post" id="contactForm">
+                <label>NOMBRE Y APELLIDOS*</label>
+                <input type="text" name="nombre" class="form-control" required />
+                <label>ASUNTO</label>
+                <input type="text" name="asunto" class="form-control" />
+                <label>MENSAJE</label>
+                <textarea name="mensaje" cols="25" rows="10"></textarea>
+                <label>
+                    <input type="checkbox" required />He leído y acepto el <b>Aviso Legal</b> y la <b>Política de Privacidad</b>
+                </label>
+                <button class="btn">Enviar</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
