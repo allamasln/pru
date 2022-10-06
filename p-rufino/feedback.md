@@ -15,7 +15,7 @@
     - Bien resuelto lo de que la imagen de Join the League te mande a otra página.
     - La línea 99 de bio queda raro que esté sólo para poner el borde.
     - Buena idea el botón de arriba en el portfolio. 
-    Sin embargo, no entiendo cómo has hecho lo de las flechas de los lados. Quiás habría sido mucho más sencillo poner un &uarr;, que es el código de la flecha para arriba.
+    Sin embargo, no entiendo cómo has hecho lo de las flechas de los lados. Quiás habría sido mucho más sencillo poner un &uarr;, que es el código de la flecha para arriba.AHORA ENTIENDO CÓMO LO HAS HECHO, DESPUÉS DE LA EXPOSICIÓN. PERDÓN POR CAMBIARLO.
     - En la línea 83 del portfolio, está obsoleto usar el atributo frameborder. Lo suyo sería usar css.
     - Buena organización del formulario en contacto.
     - El label de apellidos tendría que haber estado debajo del nombre.
@@ -24,10 +24,7 @@
 
 
 ### CSS
-    - Falta el responsive.
     - Faltaría que esté comentado el css.
-    - Muy bueno el uso de la hamburguesa, aunque te desaparece la parte de contacto.
-    - Faltaría el responsive.
     - Bien por haber definido variables en el :root para luego poder usarlas en el resto de estilos.
     
 ### CONTENIDO
