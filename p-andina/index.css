@@ -1,0 +1,54 @@
+* { /* valores a 0 del navegador para márgenes */
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(45deg, rgba(71, 41, 48, 0.75) 0%,rgba(34, 7, 13, 0.75) 50%, rgba(8, 7, 7, 3) 100%);
+}
+
+.textura{
+    width: 700px;
+    height: 800px;
+    position: relative;
+    top: 0 px;
+    left: 30px;
+    bottom: 10px;
+}
+
+.imageninicio{
+    width: 400px;
+    height: 500px;
+    position: fixed;
+    top: 100px;
+    left: 800px;    
+}
+
+.menu a{
+    background-color:rgb(36, 23, 26);
+    color:rgb(164, 144, 144);
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 70px;
+    font-family: 'Roboto', sans-serif;
+    position: sticky;
+    top: 20px;
+}
+
+.menu a:hover{
+    background-color: rgb(164, 144, 144);
+    color: rgb(36, 23, 26);
+}
+
+.saludo{
+    font-family: 'Roboto', sans-serif;
+    color: antiquewhite;
+    font-size: xx-large;
+    margin-left: 100px;
+    margin-top: 170px;
+    position: absolute; z-index:2;   
+}
