@@ -1,0 +1,119 @@
+:root{
+    --p-blue-l: #85929E;
+    --p-blue-m: #4d6a87;
+    --p-blue-h: #34495E;
+    --p-grey-l: #85929E;
+    --p-2test: #eff8fa;
+    --p-1test: #9da0de;
+    --bg: #FDFEFE;
+    --bb: #001014;
+    
+}
+
+
+body {
+    font-family: 'Orbitron', sans-serif; 
+    background-color: var(--bg);     margin: 0;
+    padding: 0;
+}
+header {
+   background-color: var(--p-blue-h); width: 90% ; height: 105px ; margin: auto; font-family: Fremont;  
+}
+h1 {  color: var(--p-1test); font-family: 'Trocchi', serif; font-size: 45px;  line-height: 78px; margin: 0;-webkit-text-stroke: 1.5px var(--p-2test); letter-spacing: 9px;
+}
+
+nav {
+    vertical-align: bottom; background-color: #4d6a87;  ;
+}
+
+li {
+    color: #fff;
+    display: inline-block;
+    padding: 0 10px;
+    transition: background .5s; 
+} 
+.btn {
+    color: #fff;
+    background: #4d6a87;
+    padding: 0px 10px;
+    text-decoration: none; 
+    transition: background .5s; 
+}
+.btn:hover {
+    background: #224261;
+    cursor: pointer; 
+    transition: background 0.5s;  
+}
+ul {
+    margin: 0;
+}
+
+main {
+    width: 90% ; height: auto ; background-color: #D6DBDF; margin: auto
+}
+#logo {
+    text-align: center;  padding: 0; display: flex;align-items: center;justify-content: center;
+}
+.center {
+    text-align: center;
+}
+.tline{
+    background-color: var(--p-blue-m); height: 10px;
+}
+.tline2{
+    background-color: var(--p-blue-m); height: 2px;
+}
+
+#tabla1izq { color: var(--p-2test);
+    /* opacity: 0,3; */
+     
+}
+table {
+    width: 100%; height: auto; vertical-align: top;
+}
+
+#tabla1 {
+    width: 20%; height: 800px; border: 8px solid var(--p-blue-h); background-color: var(--bb);vertical-align: top; /*opacity: 0.9;*/ letter-spacing: 0.2px;
+}
+#tabla2 {
+    height:500px; border: 8px solid var(--p-blue-h);vertical-align: top; 
+}
+#tabla3 {
+    width: 100%; height: 900px ; background-color: #000000; background-image: url(imagenes/lol.webp) ; background-repeat: no-repeat; ; background-size: cover;
+}
+#table4 {
+    width: auto; height: auto; 
+}
+.tabla5 {
+    border: 8px solid var(--p-blue-h); width: 10%; background-color:  var(--p-blue-h);
+}
+#tabla6 {
+   border: 8px solid var(--p-blue-h); width: 50%;
+}
+#tabla7 {
+   border: #224261 solid 0px; text-align: center;
+
+}
+span {
+    background-color: var(--p-blue-h); color: var(--bg); 
+}
+
+footer {
+   background-color: var(--p-blue-h); width: 90% ; height: 80px ;  margin: auto; display: flex;align-items: center;justify-content: end;
+}
+#foot {
+    text-align: center; margin: 30px;
+}
+#formulario{
+    padding-top: 60px; padding: 60px;
+}
+#derecha { 
+    width: 380px;background-color: #34495E;background-image: url(imagenes/derecha1ver.jpg) ; background-repeat:  no-repeat; 
+     
+}
+p { color: #224261; margin: 30px;
+    
+}
+.tbodyp { border: #224261 solid 0px; text-align: center;
+
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>League Of League </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+                    @media (max-width: 768px) {
+                        #img2 {
+                         display: none;
+                        }
+
+                    }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <h1>
+                League Of Legends 
+            </h1>
+        </div>
+        <nav >
+            <ul>
+                <li><a href="index.html" class="btn">Home</a></li>
+                <li><a href="bio.html" class="btn">Biografía</a></li>
+                <li><a href="portafolio.html" class="btn">Portfolio</a></li>
+                <li><a href="contacto.html" class="btn">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main >
+        
+        <div id="formulario">
+            <div><img src="imagenes/load1.webp" alt="cargando" style="float:right" width="730" id="img2"></div>
+            <form  class="form">
+    
+                    <fieldset>
+                        <legend>Información Personal</legend>
+                        Nombre: <input name="nombre" type='text' tabindex='1' autofocus>
+                        Apellidos: <input name="apellidos" type='text' tabindex='2'>
+                        <br><br>
+                        Edad: <input type="number" id="edad" min="65" max="100" tabindex='3'>
+                        Sexo: <input type="radio" value="male">m<input type="radio" value="female"  >f<br><br>
+                        Direccion: <input name='direccion' type='text' tabindex='4'><br><br>
+                        Código Postal: <input name='codigo' type="number" tabindex='5'>
+                        <br><br>
+                        Localidad: <input name='localidad' type='text' tabindex='6'>
+                        <br><br>
+                        Ciudad: <input name="ciudad" type='text' tabindex='7'>
+                        <br><br>
+                        Teléfono<input name="telefono" type="tel" tabindex='8'>
+                        <br><br>
+                        <input type="email" placeholder="correo@ejemplo.com" tabindex='9'>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Escribe algo sobre tí</legend>
+                        <textarea tabindex="10" name="sobreti"  cols="60" rows="5"></textarea>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <input tabindex="11" id="borrar" type="reset" value="Reset">
+                        <input tabindex="12" id="enviar" type="submit" value="Enviar"> 
+                    </fieldset>
+                    
+            </form>
+
+        </div>
+        
+    </main>
+    <footer>
+       <div id="foot">
+        <span>reiker1@hotmail.com</span>
+       </div> 
+    </footer>
+
+</body>
+</html>
